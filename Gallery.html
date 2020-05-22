@@ -24,6 +24,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/sgc3zba.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -76,7 +77,6 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid">
-      <div class="container"></div>
       <h1 class="display-4">Sammy's Work</h1>
       <p class="lead">
         My work compose of mixed media, acrylic, oil, and pastel. I am just
@@ -114,13 +114,13 @@
 
         <!-- images -->
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item carousel-item-next carousel-item-left">
             <img src="images/crab.jpg" class="carousel-img" alt="none" />
           </div>
           <div class="carousel-item">
             <img src="images\bike.jpg" class="carousel-img" alt="none" />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active carousel-item-left">
             <img src="images\sink_2 (1).jpg" class="carousel-img" alt="..." />
           </div>
         </div>
@@ -151,7 +151,7 @@
     <div class="row row-cols-4">
       <div class="col-md-3">
         <header>
-          <h3>
+          <h3 class="spaceOnTop">
             Here are some my work involving mixed media, acrylic, and oil pastel
           </h3>
         </header>
@@ -174,7 +174,7 @@
               />
             </div>
 
-            <div id="detail1" class="collapse">
+            <div id="detail1" class="collapse show">
               <div class="card-body">
                 <h5 class="card-title">Chains</h5>
                 <a href="#" class="btn btn-info">Learn More</a>
@@ -187,13 +187,13 @@
             <div class="inner">
               <img
                 src="images\shadow.JPG"
-                class="card-img-top"
+                class="card-img-top collapsed"
                 id="thumb-postalt"
                 alt="..."
                 type="button"
                 data-target="#detail2"
                 data-toggle="collapse"
-                aria-expanded="true"
+                aria-expanded="false"
               />
             </div>
 
@@ -213,14 +213,13 @@
           <div class="inner">
             <img
               src="images\GEM.jpg"
-              class="card-img-top"
+              class="card-img-top collapsed"
               alt="..."
               id="thumb-postalt"
-              alt="..."
               type="button"
               data-target="#detail3"
               data-toggle="collapse"
-              aria-expanded="true"
+              aria-expanded="false"
             />
           </div>
           <div class="collapse" id="detail3">
@@ -236,14 +235,13 @@
           <div class="inner">
             <img
               src="images/boy.JPG"
-              class="card-img-top"
+              class="card-img-top collapsed"
               alt="..."
               id="thumb-postalt"
-              alt="..."
               type="button"
               data-target="#detail4"
               data-toggle="collapse"
-              aria-expanded="true"
+              aria-expanded="false"
             />
           </div>
           <div class="collapse" id="detail4">
@@ -255,7 +253,6 @@
         </div>
       </div>
 
-     
       <div class="col-md-3">
         <div class="feature2">
           <div class="card text-white shadow" style="width: 16rem;">
@@ -287,13 +284,13 @@
           <div class="inner">
             <img
               src="images\flower.jpg"
-              class="card-img-top"
+              class="card-img-top collapsed"
               alt="..."
               id="thumb-postalt"
               type="button"
               data-target="#detail6"
               data-toggle="collapse"
-              aria-expanded="true"
+              aria-expanded="false"
             />
           </div>
 
@@ -310,5 +307,59 @@
     <!-- Second Row -->
 
     <!-- END  Cards With other Art Work -->
+
+    <!-- Images Grid -->
+
+    <div class="column-title">
+      <p
+        style="font-weight: 600; font-family: poynter-oldstyle-display, serif;"
+      >
+        oil painting
+      </p>
+      <p
+        style="
+          font-family: montserratextralight;
+
+          font-weight: 200;
+
+          font-style: normal;
+
+          font-size: 50px;
+          padding-left: 250px;
+        "
+      >
+        Still Life / Portrait /Exploratory Approaches
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="column-oil 1">
+        <img src="images\Oil Painting\forest.jpg" alt="#" />
+        <img src="images\Oil Painting\graygirl.jpg" alt="#" />
+      </div>
+      <div class="column-oil 2">
+        <img src="images\Oil Painting\pixel.jpg" alt="#" />
+        <img src="images\Oil Painting\orange.jpg" alt="#" />
+      </div>
+      <div class="column-oil 3">
+        <img src="images\Oil Painting\sink_2 (1).jpg" alt="#" />
+        <img src="images\Oil Painting\portrait.jpg" alt="#" />
+      </div>
+      <div class="column-oil 4">
+        <img src="images\Oil Painting\yellowtree.jpg" alt="#" />
+      </div>
+    </div>
+
+    <!-- <div class="row-arc">
+  <div class="column-title">
+    <h1>" Arcylic "</h1>
+  </div>
+  <div class="column-arc 1">
+    <img src="images\Oil Painting\orange.jpg" alt="#" />
+  </div>
+  <div class="column-arc 2">
+    <img src="images\Oil Painting\portrait.jpg" alt="#" />
+  </div>
+</div> -->
   </body>
 </html>
