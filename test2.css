@@ -266,8 +266,8 @@ header .logo {
 }
 
 .icon-container{
-  position: relative; 
-  display: flex; 
+  position: relative;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -291,15 +291,7 @@ header .logo {
   transition: opacity .4s ease;
 }
 
-#hitBox{
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  right: 0px;
-  z-index: 20;
-}
-
-#hitBox:hover + #icon-instagram-gradient{
+#hitBox:hover #icon-instagram-gradient{
   opacity: 1.0;
 }
 
